@@ -18,11 +18,118 @@
     />
 
     <!-- website icon -->
-    <link rel="icon" href="public/assets/images/icons/website-icon.png">
+    <link rel="icon" href="public/assets/images/icons/website-icon.png" />
 
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
   <body>
+    <header>
+      <div class="container">
+        <a href="#" class="header__logo">
+          <span><img src="public/assets/images/logo/logo.png" alt="" /></span>
+          <h1>ray shooting</h1>
+        </a>
+        <ul class="header__menu">
+          <a href="#"><li class="active">accueil</li></a>
+          <a href="#"><li>a propos</li></a>
+          <a href="#"><li>services</li></a>
+          <a href="#"><li>gallery</li></a>
+          <a href="#"><li>contact</li></a>
+        </ul>
+        <ul class="header__social_link">
+          <a href="#"
+            ><li><i class="fa-brands fa-instagram"></i></li
+          ></a>
+          <a href="#"
+            ><li><i class="fa-brands fa-tiktok"></i></li
+          ></a>
+          <a href="#"
+            ><li><i class="fa-brands fa-pinterest"></i></li
+          ></a>
+        </ul>
+        <div class="header__open_menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
 
+    <div class="hero_section">
+      <div class="hero-swp mySwiper">
+        <div class="swiper-wrapper hero__slides">
+          <div class="swiper-slide hero__single_slide">
+            <img src="public/assets/images/slides/slide-1.svg" alt="" />
+            <div class="hero__single_slide__content center">
+              <h4>bienvenue chez</h4>
+              <h1>ray shooting</h1>
+              <p>
+                Capturez l'essence de vos produits avec une photographie
+                professionnelle et artistique qui met en valeur chaque détail.
+              </p>
+              <div class="hero__single_slide__content_btns">
+                <a href="#">a propos</a>
+                <a href="#" class="bg_transparent">contactez-nous</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide hero__single_slide">
+            <img src="public/assets/images/slides/slide-2.svg" alt="" />
+            <div class="hero__single_slide__content left">
+              <h4>Élevez vos visuels</h4>
+              <h1>Créations artistiques</h1>
+              <p>
+                Ray Shooting offre des services spécialisés de photographie pour
+                produits, créant des images qui captivent et vendent.
+              </p>
+              <div class="hero__single_slide__content_btns">
+                <a href="#">nos services</a>
+                <a href="#" class="bg_transparent">contactez-nous</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide hero__single_slide">
+            <img src="public/assets/images/slides/slide-3.svg" alt="" />
+            <div class="hero__single_slide__content center">
+              <h4>Donnez vie à vos produits</h4>
+              <h1>Images percutantes</h1>
+              <p>
+                Transformez la présentation de vos produits grâce à une imagerie
+                visuelle percutante et professionnelle.
+              </p>
+              <div class="hero__single_slide__content_btns">
+                <a href="#">notre portfolio</a>
+                <a href="#" class="bg_transparent">contactez-nous</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide hero__single_slide">
+            <img src="public/assets/images/slides/slide-4.svg" alt="" />
+            <div class="hero__single_slide__content left">
+              <h4>Maîtrisez chaque détail</h4>
+              <h1>Photographie de précision</h1>
+              <p>
+                Nos photographes experts capturent l'âme de vos produits avec
+                précision, en utilisant des techniques avancées.
+              </p>
+              <div class="hero__single_slide__content_btns">
+                <a href="#">services</a>
+                <a href="#" class="bg_transparent">contactez-nous</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next btn_Swip"></div>
+        <div class="swiper-button-prev btn_Swip"></div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="public/js/script.js"></script>
+    <script src="public/js/swiper.js"></script>
   </body>
 </html>
