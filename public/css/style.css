@@ -4,6 +4,7 @@
 @import url("global/header.css");
 @import url("pages/home/hero.css");
 @import url("pages/home/about.css");
+@import url("pages/home/services.css");
 
 :root {
     --main-color: #29645C;

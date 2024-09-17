@@ -41,4 +41,24 @@ section {
   display: none;
 }
 
-/* emd scrollbar */
+/* end scrollbar */
+
+.title_sections {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  text-align: center;
+}
+
+.title_sections h1 {
+  font-size: 35px;
+  color: var(--main-color);
+  text-transform: capitalize;
+}
+
+.title_sections p {
+  font-size: 16px;
+  line-height: 1.6;
+}
