@@ -6,11 +6,12 @@
 @import url("pages/home/about.css");
 @import url("pages/home/services.css");
 @import url("pages/home/gallery.css");
+@import url("pages/home/tarif.css");
 
 :root {
     --main-color: #29645C;
     --second-color: #7BAE7F;
-    --background: #ECFEEE;
+    --background: #ecfeee;
     --white: #ffffff;
     --black: #000000;
     --parag-color: #5f5f5f;

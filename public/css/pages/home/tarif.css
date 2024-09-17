@@ -1,0 +1,56 @@
+.tarif_sec {
+  background-color: var(--background);
+}
+
+.tarif-swp{
+    position: relative;
+    overflow: hidden;
+}
+
+.tarif__plans_single {
+  padding: 30px;
+  width: 32%;
+  height: auto !important;
+  background-color: var(--white);
+  background-image: url("../../../assets/images/tarif/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex !important;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+}
+
+.tarif__plans_single__title {
+  font-size: 25px;
+  color: var(--main-color);
+}
+
+.tarif__plans_single__price {
+  font-size: 23px;
+}
+
+.tarif__plans_single a{
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: 1px solid var(--main-color);
+    border-radius: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+.tarif__plans_single a:hover{
+    background-color: transparent;
+    color: var(--main-color);
+}
+
+.features{
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+}
