@@ -64,3 +64,49 @@
 .sevices_sec__our_services__single a:hover span {
   text-decoration: underline;
 }
+
+
+@media (max-width:950px) {
+  .sevices_sec__our_services__single img{
+    width: 60px;
+  }
+  .sevices_sec__our_services__single h3{
+    font-size: 16px;
+  }
+  .sevices_sec__our_services__single a i,
+  .sevices_sec__our_services__single p{
+    font-size: 12px;
+  }
+  .sevices_sec__our_services__single a span{
+    font-size: 13px;
+  }
+}
+
+@media (max-width:750px) {
+  .sevices_sec__our_services{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width:550px) {
+  .sevices_sec__our_services__single img{
+    width: 50px;
+  }
+  .sevices_sec__our_services__single h3{
+    font-size: 14px;
+  }
+  .sevices_sec__our_services__single a i,
+  .sevices_sec__our_services__single p{
+    font-size: 10px;
+  }
+  .sevices_sec__our_services__single a span{
+    font-size: 11px;
+  }
+}
+
+@media (max-width:450px) {
+  .sevices_sec__our_services{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
+}

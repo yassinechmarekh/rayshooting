@@ -1,3 +1,17 @@
+//style header
+const header = document.querySelector('header');
+
+function changeHeaderBackground() {
+  if (window.scrollY > 0) {
+    header.classList.add("scroll");
+  }else{
+    header.classList.remove("scroll");
+  }
+}
+window.addEventListener('scroll', changeHeaderBackground);
+
+
+// modal and bg_overlay
 modal = document.querySelector('.gallery_sec__modal_img');
 bg_overlay = document.querySelector('.bg_overlay');
 modal_img = document.querySelector('.gallery_sec__modal_img img');
@@ -19,4 +33,21 @@ function close_modal(){
 function close_items(){
     modal.classList.remove("active");
     bg_overlay.classList.remove("active");
+}
+
+
+
+// open & close menu
+menu = document.querySelector('.header__menu');
+icon = document.querySelector('.fa-bars');
+
+function open_close_menu(){
+    menu.classList.toggle("active");
+    if(menu.classList.contains("active")){
+        icon.classList.remove("fa-bars");
+        icon.classList.add("fa-xmark");
+    }else{
+        icon.classList.remove("fa-xmark");
+        icon.classList.add("fa-bars");
+    }
 }

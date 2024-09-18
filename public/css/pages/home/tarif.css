@@ -54,3 +54,55 @@
     line-height: 1.6;
     text-align: center;
 }
+
+
+@media (max-width:950px) {
+  .tarif__plans_single{
+    gap: 15px;
+  }
+  .tarif__plans_single__title{
+    font-size: 23px;
+  }
+  .tarif__plans_single__price{
+    font-size: 22px;
+  }
+  .tarif__plans_single a{
+    font-size: 15px;
+  }
+  .features{
+    font-size: 13px;
+  }
+}
+
+@media (max-width:550px) {
+  .tarif__plans_single{
+    gap: 10px;
+  }
+  .tarif__plans_single__title{
+    font-size: 22px;
+  }
+  .tarif__plans_single__price{
+    font-size: 20px;
+  }
+  .tarif__plans_single a{
+    font-size: 14px;
+  }
+  .features{
+    font-size: 12px;
+  }
+}
+
+@media (max-width:350px) {
+  .tarif__plans_single__title{
+    font-size: 20px;
+  }
+  .tarif__plans_single__price{
+    font-size: 18px;
+  }
+  .tarif__plans_single a{
+    font-size: 13px;
+  }
+  .features{
+    font-size: 11px;
+  }
+}
