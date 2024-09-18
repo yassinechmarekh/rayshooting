@@ -51,3 +51,9 @@ function open_close_menu(){
         icon.classList.add("fa-bars");
     }
 }
+
+
+// open & close about questions
+function open_close_question(question){
+  question.classList.toggle("active");
+}
