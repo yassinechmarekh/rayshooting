@@ -1,0 +1,149 @@
+footer {
+  background-color: var(--main-color);
+}
+
+.main_footer {
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: 1fr 300px 1fr;
+  gap: 30px;
+}
+
+.footer__about {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__about__logo {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.footer__about__logo img {
+  width: 30px;
+}
+
+.footer__about__logo h1 {
+  font-size: 25px;
+  text-transform: capitalize;
+  font-style: italic;
+  color: var(--white);
+}
+
+.footer__about p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ffffff9a;
+}
+
+.footer__about__social_links {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__about__social_links li {
+  width: 35px;
+  height: 35px;
+  background-color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+.footer__about__social_links li i {
+  font-size: 16px;
+  color: var(--second-color);
+}
+
+.footer__about__social_links li:hover {
+  background-color: var(--second-color);
+  transform: scale(1.05);
+}
+
+.footer__about__social_links li:hover i {
+  color: var(--white);
+}
+
+.footer__contact_info,
+.footer__quick_links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer__contact_info h1,
+.footer__quick_links h1 {
+  font-size: 25px;
+  text-transform: capitalize;
+  color: var(--white);
+}
+
+.footer__quick_links ul {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footer__quick_links ul li {
+  color: #ffffff9a;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+.footer__quick_links ul li::first-letter {
+  text-transform: capitalize;
+}
+
+.footer__quick_links ul li:hover {
+  transform: scale(1.03);
+  text-decoration: underline;
+}
+
+.footer__contact_info ul {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.footer__contact_info ul li {
+  line-height: 1.4;
+}
+
+.footer__contact_info ul li span {
+  text-transform: capitalize;
+  color: #ffffffd4;
+}
+
+.footer__contact_info ul li p {
+  color: #ffffff9a;
+}
+
+.bottom_footer p {
+  padding: 10px 0;
+  font-size: 16px;
+  color: #ffffff9a;
+  text-align: center;
+  border-top: 1px solid #ffffff9a;
+}
+
+.bottom_footer p span {
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--white);
+}
+
+.bottom_footer p a {
+  font-weight: 500;
+  color: var(--white);
+  text-decoration: underline;
+  transition: 0.3s ease-in-out;
+}
+
+.bottom_footer p a:hover {
+  color: var(--second-color);
+}

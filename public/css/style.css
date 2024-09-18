@@ -2,6 +2,7 @@
 
 @import url("global/main.css");
 @import url("global/header.css");
+@import url("global/footer.css");
 @import url("pages/home/hero.css");
 @import url("pages/home/about.css");
 @import url("pages/home/services.css");
