@@ -36,3 +36,34 @@ var swiper = new Swiper(".tarif-swp", {
     },
   },
 });
+
+// services text swiper
+var servicesText = new Swiper(".hero_services__content__our_services-swp", {
+  loop: true,
+  autoplay: {
+    delay: 2500,
+  },
+  slidesPerView: 1,
+});
+
+
+// first row project services 
+var projectsFirstRow = new Swiper(".first_row-swp", {
+  loop: true,
+  autoplay: {
+    delay: 3500,
+  },
+  slidesPerView: 3,
+  spaceBetween: 10,
+});
+
+
+// second row project services
+var projectsSecondRow = new Swiper(".second_row-swp", {
+  loop: true,
+  autoplay: {
+    delay: 2500,
+  },
+  slidesPerView: 2,
+  spaceBetween: 10,
+});

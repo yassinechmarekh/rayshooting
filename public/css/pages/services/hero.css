@@ -1,0 +1,137 @@
+.hero_services .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero_services__main {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.hero_services__content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hero_services__content h1 {
+  font-size: 40px;
+  color: var(--main-color);
+}
+
+.hero_services__content__our_services {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.hero_services__content__our_services h4 {
+  font-size: 25px;
+  text-transform: capitalize;
+  background: linear-gradient(250deg, #29645c, #a6c3a9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.second_row-swp,
+.first_row-swp,
+.hero_services__content__our_services-swp {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero_services__slides_projects {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.hero_services__slides_projects__first_row {
+  width: 100%;
+}
+
+.hero_services__slides_projects__second_row {
+  width: 66%;
+}
+
+.second_row__projects__single,
+.first_row__projects__single {
+  height: 100%;
+}
+
+.first_row__projects__single {
+  width: 33%;
+}
+
+.second_row__projects__single {
+  width: 25%;
+}
+
+.second_row__projects__single img,
+.first_row__projects__single img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.hero_services__main p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.hero_services__text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero_services__text p {
+  font-size: 22px;
+}
+
+.hero_services__text__social_links {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.hero_services__text__social_links hr {
+  width: 60px;
+}
+
+.hero_services__text__social_links ul {
+  display: flex;
+  gap: 10px;
+}
+
+.hero_services__text__social_links ul li {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.hero_services__text__social_links ul li i {
+  font-size: 16px;
+  color: var(--main-color);
+}
+
+.hero_services__text__social_links ul a:hover li {
+  transform: scale(0.9);
+  border-color: var(--second-color);
+}
+
+.hero_services__text__social_links ul a:hover li i {
+  color: var(--second-color);
+}

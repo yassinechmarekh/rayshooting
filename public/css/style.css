@@ -11,6 +11,9 @@
 @import url("pages/about/intro.css");
 @import url("pages/about/banner.css");
 @import url("pages/about/question.css");
+@import url("pages/services/tarif.css");
+@import url("pages/services/banner.css");
+@import url("pages/services/hero.css");
 
 :root {
     --main-color: #29645C;
