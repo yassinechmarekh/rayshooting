@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ray Shooting - Mettez en valeur la beauté de chaque produit</title>
+
+    <!-- link to file css -->
+    <link rel="stylesheet" href="public/css/style.css" />
+
+    <!-- link font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- website icon -->
+    <link rel="icon" href="public/assets/images/icons/website-icon.png" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="#" class="header__logo">
+          <span><img src="public/assets/images/logo/logo.png" alt="" /></span>
+          <h1>ray shooting</h1>
+        </a>
+        <ul class="header__menu">
+          <a href="index.html"><li>accueil</li></a>
+          <a href="about.html"><li>a propos</li></a>
+          <a href="services.html"><li>services</li></a>
+          <a href="gallery.html"><li>gallery</li></a>
+          <a href="contact.html"><li class="active">contact</li></a>
+        </ul>
+        <ul class="header__social_link">
+          <a href="#"
+            ><li><i class="fa-brands fa-instagram"></i></li
+          ></a>
+          <a href="#"
+            ><li><i class="fa-brands fa-tiktok"></i></li
+          ></a>
+          <a href="#"
+            ><li><i class="fa-brands fa-pinterest"></i></li
+          ></a>
+        </ul>
+        <div class="header__open_menu">
+          <i class="fa-solid fa-bars" onclick="open_close_menu()"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="top-page">
+      <img src="public/assets/images/banner/top-page.jpg" alt="" />
+      <div class="top-page__content">
+        <h1>contact</h1>
+        <span>
+          <a href="#">accueil</a>
+          <i class="fa-solid fa-circle"></i>
+          <h4>contact</h4>
+        </span>
+      </div>
+    </div>
+
+    <section class="contact_sec">
+      <div class="container">
+        <div class="contact_informations">
+          <div class="contact_informations__single">
+            <h3>adresse :</h3>
+            <ul>
+              <li>4035 Heavens,</li>
+              <li>Los Angeles, California</li>
+            </ul>
+          </div>
+          <div class="contact_informations__single">
+            <h3>téléphone :</h3>
+            <ul>
+              <li>+212 313 577 111</li>
+              <li>+212 313 577 111</li>
+            </ul>
+          </div>
+          <div class="contact_informations__single">
+            <h3>email :</h3>
+            <ul>
+              <li>info@rayshooting.com</li>
+              <li>support@rayshooting.com</li>
+            </ul>
+          </div>
+        </div>
+        <form action="#" class="contact_form">
+          <div class="two_input">
+            <input type="text" placeholder="Nom" required autofocus />
+            <input type="email" placeholder="Email" required />
+          </div>
+          <div class="two_input">
+            <input type="tel" placeholder="Téléphone" required />
+            <input type="text" placeholder="Sujet" required />
+          </div>
+          <div class="one_input">
+            <textarea placeholder="Message" cols="30" rows="10"></textarea>
+          </div>
+          <button type="submit">envoyer</button>
+        </form>
+      </div>
+    </section>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d946.4027385187738!2d-7.678091914038779!3d33.54134395745107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda62cb8b2c245cb%3A0x3c49eb36c7a8aff3!2sStudio3%20Labo%20Photo!5e0!3m2!1sfr!2sma!4v1726758697905!5m2!1sfr!2sma"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <footer>
+      <div class="container">
+        <div class="main_footer">
+          <div class="footer__about">
+            <a href="#" class="footer__about__logo">
+              <img src="public/assets/images/logo/logo.png" alt="" />
+              <h1>ray shooting</h1>
+            </a>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad
+              minim
+            </p>
+            <ul class="footer__about__social_links">
+              <a href="#"
+                ><li><i class="fa-brands fa-facebook-f"></i></li
+              ></a>
+              <a href="#"
+                ><li><i class="fa-brands fa-tiktok"></i></li
+              ></a>
+              <a href="#"
+                ><li><i class="fa-brands fa-pinterest"></i></li
+              ></a>
+            </ul>
+          </div>
+          <div class="footer__quick_links">
+            <h1>liens rapides</h1>
+            <ul>
+              <a href="#"><li>accueil</li></a>
+              <a href="#"><li>a propos</li></a>
+              <a href="#"><li>services</li></a>
+              <a href="#"><li>gallery</li></a>
+              <a href="#"><li>contact</li></a>
+            </ul>
+          </div>
+          <div class="footer__contact_info">
+            <h1>contactez-nous</h1>
+            <ul>
+              <li>
+                <span>téléphone :</span>
+                <a href="tel:0612345678"><p>+212 612 345 678</p></a>
+              </li>
+              <li>
+                <span>email :</span>
+                <a href="mailto:contact@rayshooting.com"
+                  ><p>contact@rayshooting.com</p></a
+                >
+              </li>
+              <li>
+                <span>adresse :</span>
+                <p>4035 Heavens, Los Angeles, California</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom_footer">
+          <p>
+            &copy; <span>ray shooting</span>, All Right Reserved. Designed By
+            <a href="#">Yassine_ChM</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- link to files JS -->
+    <script src="public/js/script.js"></script>
+    <script src="public/js/swiper.js"></script>
+  </body>
+</html>

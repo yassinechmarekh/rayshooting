@@ -14,7 +14,8 @@
 @import url("pages/services/tarif.css");
 @import url("pages/services/banner.css");
 @import url("pages/services/hero.css");
-
+@import url("pages/gallery/gallery.css");
+@import url("pages/contact/contact.css");
 :root {
     --main-color: #29645C;
     --second-color: #7BAE7F;

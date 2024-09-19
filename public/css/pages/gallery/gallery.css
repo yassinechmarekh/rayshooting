@@ -1,0 +1,11 @@
+@media (max-width: 950px) {
+  .gallery_sec.gallery_page .gallery__images__single:nth-child(n + 7) {
+    display: block;
+  }
+}
+
+@media (max-width: 550px) {
+  .gallery_sec.gallery_page .gallery__images__single:nth-child(n + 5) {
+    display: block;
+  }
+}
