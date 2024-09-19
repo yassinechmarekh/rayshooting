@@ -59,3 +59,42 @@
 .about_questions__single.active i {
   transform: rotate(180deg);
 }
+
+@media (max-width: 950px) {
+  .about_questions {
+    width: 80%;
+  }
+  .about_questions__single .about_questions__single__text,
+  .about_questions__single__head p {
+    font-size: 15px;
+  }
+  .about_questions__single__head i {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 750px) {
+  .about_questions {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .about_questions__single .about_questions__single__text,
+  .about_questions__single__head p {
+    font-size: 14px;
+  }
+  .about_questions__single__head i {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 350px) {
+  .about_questions__single .about_questions__single__text,
+  .about_questions__single__head p {
+    font-size: 13px;
+  }
+  .about_questions__single__head i {
+    font-size: 11px;
+  }
+}
