@@ -52,19 +52,19 @@ input {
 }
 
 textarea:focus,
-input:focus{
-    border-left-color: var(--main-color);
+input:focus {
+  border-left-color: var(--main-color);
 }
 
 textarea::placeholder,
-input::placeholder{
-    font-size: 15px;
-    font-weight: 500;
+input::placeholder {
+  font-size: 15px;
+  font-weight: 500;
 }
 
 textarea:focus::placeholder,
-input:focus::placeholder{
-    color: var(--main-color);
+input:focus::placeholder {
+  color: var(--main-color);
 }
 
 .two_input {
@@ -81,25 +81,108 @@ input:focus::placeholder{
   width: 100%;
 }
 
-.contact_form button{
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: capitalize;
-    color: var(--white);
-    background-color: var(--main-color);
-    border: none;
-    outline: none;
-    border-radius: 20px;
-    width: fit-content;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
+.contact_form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--white);
+  background-color: var(--main-color);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  width: fit-content;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
-.contact_form button:hover{
-    background-color: var(--second-color);
+.contact_form button:hover {
+  background-color: var(--second-color);
 }
 
-iframe{
+iframe {
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .contact_informations {
+    width: 35%;
+  }
+  .contact_form {
+    width: 65%;
+  }
+}
+
+@media (max-width: 950px) {
+  .contact_informations {
+    width: 40%;
+  }
+  .contact_form {
+    width: 60%;
+  }
+  .contact_form,
+  .two_input{
+    gap: 15px;
+  }
+  .contact_informations__single h3 {
+    font-size: 17px;
+  }
+  .contact_form button,
+  .contact_informations__single ul {
+    font-size: 15px;
+  }
+  textarea::placeholder,
+  input::placeholder {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 750px) {
+  .contact_sec .container {
+    flex-direction: column;
+  }
+  .contact_informations {
     width: 100%;
+  }
+  .contact_form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .two_input {
+    flex-direction: column;
+  }
+  .two_input input {
+    width: 100%;
+  }
+  .contact_form,
+  .two_input{
+    gap: 10px;
+  }
+  .contact_informations__single h3 {
+    font-size: 16px;
+  }
+  .contact_form button,
+  .contact_informations__single ul {
+    font-size: 14px;
+  }
+  textarea::placeholder,
+  input::placeholder {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 350px) {
+  .contact_informations__single h3 {
+    font-size: 15px;
+  }
+  .contact_form button,
+  .contact_informations__single ul {
+    font-size: 13px;
+  }
+  textarea::placeholder,
+  input::placeholder {
+    font-size: 12px;
+  }
 }
