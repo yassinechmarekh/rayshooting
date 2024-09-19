@@ -4,6 +4,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  transition: 0.3s ease-in-out;
   z-index: 99;
 }
 
@@ -36,6 +37,7 @@ header .container {
   text-transform: capitalize;
   font-style: italic;
   color: var(--white);
+  transition: 0.3s ease-in-out;
 }
 
 .header__open_menu {
@@ -113,7 +115,7 @@ header .container {
 
 header.scroll{
   background-color: var(--background);
-  border: 1px solid var(--main-color);
+  border-bottom: 1px solid var(--main-color);
 }
 
 header.scroll .header__logo h1{

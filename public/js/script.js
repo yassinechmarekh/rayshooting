@@ -9,6 +9,7 @@ function changeHeaderBackground() {
   }
 }
 window.addEventListener('scroll', changeHeaderBackground);
+window.addEventListener('load', changeHeaderBackground);
 
 
 // modal and bg_overlay

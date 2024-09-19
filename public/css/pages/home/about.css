@@ -54,7 +54,7 @@
   color: var(--second-color);
 }
 
-.about_sec__content a {
+.about_sec__content > a {
   padding: 10px 20px;
   background-color: var(--main-color);
   color: var(--white);

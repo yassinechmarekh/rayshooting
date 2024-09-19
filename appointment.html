@@ -32,7 +32,7 @@
           <a href="about.html"><li>a propos</li></a>
           <a href="services.html"><li>services</li></a>
           <a href="gallery.html"><li>gallerie</li></a>
-          <a href="contact.html"><li class="active">contact</li></a>
+          <a href="contact.html"><li>contact</li></a>
         </ul>
         <ul class="header__social_link">
           <a href="#"
@@ -54,66 +54,73 @@
     <div class="top-page">
       <img src="public/assets/images/banner/top-page.jpg" alt="" />
       <div class="top-page__content">
-        <h1>contact</h1>
+        <h1>réservation</h1>
         <span>
           <a href="index.html">accueil</a>
           <i class="fa-solid fa-circle"></i>
-          <h4>contact</h4>
+          <h4>réservation</h4>
         </span>
       </div>
     </div>
 
-    <section class="contact_sec">
+    <section class="appointment_sec">
       <div class="container">
-        <div class="contact_informations">
-          <div class="contact_informations__single">
-            <h3>adresse :</h3>
-            <ul>
-              <li>4035 Heavens,</li>
-              <li>Los Angeles, California</li>
-            </ul>
-          </div>
-          <div class="contact_informations__single">
-            <h3>téléphone :</h3>
-            <ul>
-              <li>+212 313 577 111</li>
-              <li>+212 313 577 111</li>
-            </ul>
-          </div>
-          <div class="contact_informations__single">
-            <h3>email :</h3>
-            <ul>
-              <li>info@rayshooting.com</li>
-              <li>support@rayshooting.com</li>
+        <div class="appointment__main">
+          <form class="appointment__form">
+            <h1>formulaire de réservation</h1>
+            <input type="text" placeholder="Nom" required autofocus />
+            <input type="email" placeholder="Email" required />
+            <input type="tel" placeholder="Téléphone" required />
+            <select name="" id="">
+              <option value="">Selectionner un plan</option>
+              <option value="Basique">Basique</option>
+              <option value="Standard">Standard</option>
+              <option value="Premium">Premium</option>
+              <option value="Élite">Élite</option>
+            </select>
+            <button type="submit">réserver</button>
+          </form>
+          <div class="appointment__content">
+            <h1>Réservation</h1>
+            <p>
+              Simplifiez votre expérience de réservation en quelques étapes
+              simples. Suivez ces étapes pour planifier et finaliser votre
+              rendez-vous avec Ray Shooting.
+            </p>
+            <ul class="appointment__content__steps">
+              <li class="appointment__content__steps__single">
+                <i class="fa-solid fa-check-double"></i>
+                <p>
+                  Remplissez le formulaire pour réserver un rendez-vous à la
+                  date et l'heure de votre choix.
+                </p>
+              </li>
+              <li class="appointment__content__steps__single">
+                <i class="fa-solid fa-check"></i>
+                <p>
+                  Vous recevrez un appel téléphonique pour confirmer les détails
+                  de votre rendez-vous.
+                </p>
+              </li>
+              <li class="appointment__content__steps__single">
+                <i class="fa-solid fa-check"></i>
+                <p>
+                  Assurez-vous d'être présent(e) à l'heure du rendez-vous
+                  planifié.
+                </p>
+              </li>
+              <li class="appointment__content__steps__single">
+                <i class="fa-solid fa-check"></i>
+                <p>
+                  Récupérez votre travail finalisé selon les modalités
+                  convenues.
+                </p>
+              </li>
             </ul>
           </div>
         </div>
-        <form action="#" class="contact_form">
-          <div class="two_input">
-            <input type="text" placeholder="Nom" required autofocus />
-            <input type="email" placeholder="Email" required />
-          </div>
-          <div class="two_input">
-            <input type="tel" placeholder="Téléphone" required />
-            <input type="text" placeholder="Sujet" required />
-          </div>
-          <div class="one_input">
-            <textarea placeholder="Message" cols="30" rows="7"></textarea>
-          </div>
-          <button type="submit">envoyer</button>
-        </form>
       </div>
     </section>
-
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d946.4027385187738!2d-7.678091914038779!3d33.54134395745107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda62cb8b2c245cb%3A0x3c49eb36c7a8aff3!2sStudio3%20Labo%20Photo!5e0!3m2!1sfr!2sma!4v1726758697905!5m2!1sfr!2sma"
-      width="600"
-      height="450"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
 
     <footer>
       <div class="container">
