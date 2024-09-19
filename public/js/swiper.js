@@ -55,6 +55,14 @@ var projectsFirstRow = new Swiper(".first_row-swp", {
   },
   slidesPerView: 3,
   spaceBetween: 10,
+  breakpoints: {
+    550: {
+      slidesPerView: 3,
+    },
+    0: {
+      slidesPerView: 2,
+    },
+  },
 });
 
 
@@ -66,4 +74,15 @@ var projectsSecondRow = new Swiper(".second_row-swp", {
   },
   slidesPerView: 2,
   spaceBetween: 10,
+  breakpoints: {
+    750: {
+      slidesPerView: 2,
+    },
+    550: {
+      slidesPerView: 3,
+    },
+    0: {
+      slidesPerView: 2,
+    },
+  },
 });

@@ -135,3 +135,82 @@
 .hero_services__text__social_links ul a:hover li i {
   color: var(--second-color);
 }
+
+@media (max-width: 1200px) {
+  .hero_services__main p {
+    display: none;
+  }
+}
+
+@media (max-width: 950px) {
+  .hero_services__content h1 {
+    font-size: 35px;
+  }
+  .hero_services__content__our_services h4 {
+    font-size: 23px;
+  }
+  .hero_services__text p {
+    font-size: 20px;
+  }
+  .hero_services__text__social_links ul li {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 750px) {
+  .hero_services__main {
+    flex-direction: column;
+  }
+  .hero_services__main p {
+    display: block;
+    font-size: 15px;
+  }
+  .hero_services__slides_projects__second_row,
+  .hero_services__slides_projects,
+  .hero_services__content {
+    width: 100%;
+  }
+  .second_row__projects__single {
+    width: 33%;
+  }
+}
+
+@media (max-width: 550px) {
+  .hero_services__content h1 {
+    font-size: 30px;
+  }
+  .hero_services__content__our_services h4 {
+    font-size: 20px;
+  }
+  .hero_services__text p {
+    font-size: 18px;
+  }
+  .hero_services__text__social_links ul li i,
+  .hero_services__main p {
+    font-size: 14px;
+  }
+  .hero_services__text__social_links ul li {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 350px) {
+  .hero_services__content h1 {
+    font-size: 25px;
+  }
+  .hero_services__content__our_services h4 {
+    font-size: 18px;
+  }
+  .hero_services__text p {
+    font-size: 16px;
+  }
+  .hero_services__text__social_links ul li i,
+  .hero_services__main p {
+    font-size: 13px;
+  }
+  .hero_services__text__social_links hr{
+    display: none;
+  }
+}
