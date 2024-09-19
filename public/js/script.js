@@ -58,3 +58,8 @@ function open_close_menu(){
 function open_close_question(question){
   question.classList.toggle("active");
 }
+
+// loader
+window.addEventListener("load", function () {
+  document.querySelector(".loader").style.display = "none";
+});
