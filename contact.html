@@ -106,17 +106,17 @@
             </ul>
           </div>
         </div>
-        <form action="#" class="contact_form" data-aos="fade-left">
+        <form class="contact_form" data-aos="fade-left">
           <div class="two_input">
-            <input type="text" placeholder="Nom" required autofocus />
-            <input type="email" placeholder="Email" required />
+            <input type="text" id="name" placeholder="Nom" required autofocus />
+            <input type="email" id="email" placeholder="Email" required />
           </div>
           <div class="two_input">
-            <input type="tel" placeholder="Téléphone" required />
-            <input type="text" placeholder="Sujet" required />
+            <input type="tel" id="phone" placeholder="Téléphone" required />
+            <input type="text" id="subject" placeholder="Sujet" required />
           </div>
           <div class="one_input">
-            <textarea placeholder="Message" cols="30" rows="7"></textarea>
+            <textarea id="message" placeholder="Message" cols="30" rows="7"></textarea>
           </div>
           <button type="submit">envoyer</button>
         </form>
@@ -200,8 +200,11 @@
     </footer>
 
     <!-- link to files JS -->
-    <script src="public/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="public/js/script.js"></script>
     <script src="public/js/aos.js"></script>
+    <script src="public/js/contact.js"></script>
   </body>
 </html>

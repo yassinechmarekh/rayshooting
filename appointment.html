@@ -87,11 +87,11 @@
         <div class="appointment__main">
           <form class="appointment__form">
             <h1>formulaire de réservation</h1>
-            <input type="text" placeholder="Nom" required autofocus />
-            <input type="email" placeholder="Email" required />
-            <input type="tel" placeholder="Téléphone" required />
-            <select name="" id="">
-              <option value="">Selectionner un plan</option>
+            <input type="text" id="name" placeholder="Nom" required autofocus />
+            <input type="email" id="email" placeholder="Email" required />
+            <input type="tel" id="phone" placeholder="Téléphone" required />
+            <select id="plan">
+              <option value="" selected>Selectionner un plan</option>
               <option value="Basique">Basique</option>
               <option value="Standard">Standard</option>
               <option value="Premium">Premium</option>
@@ -208,8 +208,11 @@
     </footer>
 
     <!-- link to files JS -->
-    <script src="public/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="public/js/script.js"></script>
     <script src="public/js/aos.js"></script>
+    <script src="public/js/appointment.js"></script>
   </body>
 </html>
