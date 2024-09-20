@@ -25,6 +25,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+
+    <!-- AOS CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
   </head>
   <body>
     <div class="loader">
@@ -39,7 +45,7 @@
       </div>
     </div>
 
-    <header>
+    <header data-aos="fade-down">
       <div class="container">
         <a href="index.html" class="header__logo">
           <span><img src="public/assets/images/logo/logo.png" alt="" /></span>
@@ -69,7 +75,7 @@
       </div>
     </header>
 
-    <div class="top-page">
+    <div class="top-page" data-aos="fade-zoom-in">
       <img src="public/assets/images/banner/top-page.jpg" alt="" />
       <div class="top-page__content">
         <h1>services</h1>
@@ -84,7 +90,7 @@
     <section class="hero_services">
       <div class="container">
         <div class="hero_services__main">
-          <div class="hero_services__content">
+          <div class="hero_services__content" data-aos="fade-up">
             <h1>Découverez les différents services de Ray Shooting</h1>
             <div class="hero_services__content__our_services">
               <h4>photographie</h4>
@@ -121,7 +127,7 @@
               garantir des résultats exceptionnels à chaque projet.
             </p>
           </div>
-          <div class="hero_services__slides_projects">
+          <div class="hero_services__slides_projects" data-aos="fade-up">
             <div class="hero_services__slides_projects__first_row">
               <div class="first_row-swp mySwiper">
                 <div class="first_row__projects swiper-wrapper">
@@ -165,7 +171,7 @@
           </div>
         </div>
 
-        <div class="hero_services__text">
+        <div class="hero_services__text" data-aos="fade-up">
           <p>
             Chez Ray Shooting, où chaque image raconte votre histoire.
             Transformons vos idées en visuels captivants.
@@ -194,14 +200,15 @@
         <h1>Collaborez avec Ray Shooting !</h1>
         <p>Nous sommes prêts à donner vie à vos projets.</p>
         <a href="appointment.html"
-          ><span>commencer maintenant</span><i class="fa-solid fa-chevron-right"></i
+          ><span>commencer maintenant</span
+          ><i class="fa-solid fa-chevron-right"></i
         ></a>
       </div>
     </div>
 
     <section class="services_sec">
       <div class="container">
-        <div class="title_sections">
+        <div class="title_sections" data-aos="fade-up">
           <h1>nos services</h1>
           <p>
             Chez Ray Shooting, nous offrons une gamme complète de services de
@@ -211,7 +218,7 @@
           </p>
         </div>
         <div class="sevices_sec__our_services">
-          <div class="sevices_sec__our_services__single">
+          <div class="sevices_sec__our_services__single" data-aos="flip-left">
             <img src="public/assets/images/services/photography.svg" alt="" />
             <h3>photographie</h3>
             <p>
@@ -223,7 +230,7 @@
               <span>commencer maintenant !</span></a
             >
           </div>
-          <div class="sevices_sec__our_services__single">
+          <div class="sevices_sec__our_services__single" data-aos="flip-left">
             <img src="public/assets/images/services/videography.svg" alt="" />
             <h3>videographie</h3>
             <p>
@@ -236,7 +243,7 @@
               <span>commencer maintenant !</span></a
             >
           </div>
-          <div class="sevices_sec__our_services__single">
+          <div class="sevices_sec__our_services__single" data-aos="flip-left">
             <img
               src="public/assets/images/services/product-photography.svg"
               alt=""
@@ -251,7 +258,7 @@
               <span>commencer maintenant !</span></a
             >
           </div>
-          <div class="sevices_sec__our_services__single">
+          <div class="sevices_sec__our_services__single" data-aos="flip-left">
             <img
               src="public/assets/images/services/lighting-setup.svg"
               alt=""
@@ -267,7 +274,7 @@
               <span>commencer maintenant !</span></a
             >
           </div>
-          <div class="sevices_sec__our_services__single">
+          <div class="sevices_sec__our_services__single" data-aos="flip-left">
             <img src="public/assets/images/services/photo-editing.svg" alt="" />
             <h3>retouche photo</h3>
             <p>
@@ -279,7 +286,7 @@
               <span>commencer maintenant !</span></a
             >
           </div>
-          <div class="sevices_sec__our_services__single">
+          <div class="sevices_sec__our_services__single" data-aos="flip-left">
             <img src="public/assets/images/services/video-editor.svg" alt="" />
             <h3>Montage vidéo et retouche</h3>
             <p>
@@ -298,7 +305,7 @@
 
     <section class="tarif_sec servics_page">
       <div class="container">
-        <div class="title_sections">
+        <div class="title_sections" data-aos="fade-up">
           <h1>nos tarifs</h1>
           <p>
             Découvrez nos formules tarifaires adaptées à chaque besoin. Que ce
@@ -308,7 +315,7 @@
           </p>
         </div>
 
-        <div class="tarif-swp mySwiper">
+        <div class="tarif-swp mySwiper" data-aos="fade-up">
           <div class="swiper-wrapper tarif__plans">
             <div class="swiper-slide tarif__plans_single">
               <h1 class="tarif__plans_single__title">Basique</h1>
@@ -441,7 +448,9 @@
 
     <!-- link to files js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script src="public/js/script.js"></script>
     <script src="public/js/swiper.js"></script>
+    <script src="public/js/aos.js"></script>
   </body>
 </html>

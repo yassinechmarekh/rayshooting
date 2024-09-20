@@ -25,6 +25,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+
+    <!-- AOS CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
   </head>
   <body>
     <div class="loader">
@@ -39,7 +45,7 @@
       </div>
     </div>
 
-    <header>
+    <header data-aos="fade-down">
       <div class="container">
         <a href="index.html" class="header__logo">
           <span><img src="public/assets/images/logo/logo.png" alt="" /></span>
@@ -69,7 +75,7 @@
       </div>
     </header>
 
-    <div class="hero_section">
+    <div class="hero_section" data-aos="fade-zoom-in">
       <div class="hero-swp mySwiper">
         <div class="swiper-wrapper hero__slides">
           <div class="swiper-slide hero__single_slide">
@@ -139,7 +145,7 @@
       </div>
     </div>
 
-    <section class="about_sec">
+    <section class="about_sec" data-aos="fade-up">
       <div class="container">
         <div class="about_sec__content">
           <h1>
@@ -176,7 +182,7 @@
 
     <section class="services_sec">
       <div class="container">
-        <div class="title_sections">
+        <div class="title_sections" data-aos="fade-up">
           <h1>nos services</h1>
           <p>
             Chez Ray Shooting, nous offrons une gamme complète de services de
@@ -186,7 +192,7 @@
           </p>
         </div>
         <div class="sevices_sec__our_services">
-          <div class="sevices_sec__our_services__single">
+          <div class="sevices_sec__our_services__single" data-aos="flip-left">
             <img src="public/assets/images/services/photography.svg" alt="" />
             <h3>photographie</h3>
             <p>
@@ -198,7 +204,7 @@
               <span>commencer maintenant !</span></a
             >
           </div>
-          <div class="sevices_sec__our_services__single">
+          <div class="sevices_sec__our_services__single" data-aos="flip-left">
             <img src="public/assets/images/services/videography.svg" alt="" />
             <h3>videographie</h3>
             <p>
@@ -211,7 +217,7 @@
               <span>commencer maintenant !</span></a
             >
           </div>
-          <div class="sevices_sec__our_services__single">
+          <div class="sevices_sec__our_services__single" data-aos="flip-left">
             <img
               src="public/assets/images/services/product-photography.svg"
               alt=""
@@ -226,7 +232,7 @@
               <span>commencer maintenant !</span></a
             >
           </div>
-          <div class="sevices_sec__our_services__single">
+          <div class="sevices_sec__our_services__single" data-aos="flip-left">
             <img
               src="public/assets/images/services/lighting-setup.svg"
               alt=""
@@ -242,7 +248,7 @@
               <span>commencer maintenant !</span></a
             >
           </div>
-          <div class="sevices_sec__our_services__single">
+          <div class="sevices_sec__our_services__single" data-aos="flip-left">
             <img src="public/assets/images/services/photo-editing.svg" alt="" />
             <h3>retouche photo</h3>
             <p>
@@ -254,7 +260,7 @@
               <span>commencer maintenant !</span></a
             >
           </div>
-          <div class="sevices_sec__our_services__single">
+          <div class="sevices_sec__our_services__single" data-aos="flip-left">
             <img src="public/assets/images/services/video-editor.svg" alt="" />
             <h3>Montage vidéo et retouche</h3>
             <p>
@@ -273,7 +279,7 @@
 
     <section class="gallery_sec">
       <div class="container">
-        <div class="title_sections">
+        <div class="title_sections" data-aos="fade-up">
           <h1>gallerie</h1>
           <p>
             Découvrez nos réalisations à travers une sélection de projets
@@ -283,66 +289,69 @@
           </p>
         </div>
         <div class="gallery__images">
-          <div class="gallery__images__single">
+          <div class="gallery__images__single" data-aos="zoom-in">
             <img src="public/assets/images/gallery/1.jpg" alt="" />
             <div class="view_icon" onclick="zoomImage(this)">
               <i class="fa-solid fa-image"></i>
             </div>
           </div>
-          <div class="gallery__images__single">
+          <div class="gallery__images__single" data-aos="zoom-in">
             <img src="public/assets/images/gallery/2.jpg" alt="" />
             <div class="view_icon" onclick="zoomImage(this)">
               <i class="fa-solid fa-image"></i>
             </div>
           </div>
-          <div class="gallery__images__single">
+          <div class="gallery__images__single" data-aos="zoom-in">
             <img src="public/assets/images/gallery/3.jpg" alt="" />
             <div class="view_icon" onclick="zoomImage(this)">
               <i class="fa-solid fa-image"></i>
             </div>
           </div>
-          <div class="gallery__images__single">
+          <div class="gallery__images__single" data-aos="zoom-in">
             <img src="public/assets/images/gallery/4.jpg" alt="" />
             <div class="view_icon" onclick="zoomImage(this)">
               <i class="fa-solid fa-image"></i>
             </div>
           </div>
-          <div class="gallery__images__single">
+          <div class="gallery__images__single" data-aos="zoom-in">
             <img src="public/assets/images/gallery/5.jpg" alt="" />
             <div class="view_icon" onclick="zoomImage(this)">
               <i class="fa-solid fa-image"></i>
             </div>
           </div>
-          <div class="gallery__images__single">
+          <div class="gallery__images__single" data-aos="zoom-in">
             <img src="public/assets/images/gallery/6.jpg" alt="" />
             <div class="view_icon" onclick="zoomImage(this)">
               <i class="fa-solid fa-image"></i>
             </div>
           </div>
-          <div class="gallery__images__single">
+          <div class="gallery__images__single" data-aos="zoom-in">
             <img src="public/assets/images/gallery/7.jpg" alt="" />
             <div class="view_icon" onclick="zoomImage(this)">
               <i class="fa-solid fa-image"></i>
             </div>
           </div>
-          <div class="gallery__images__single">
+          <div class="gallery__images__single" data-aos="zoom-in">
             <img src="public/assets/images/gallery/8.jpg" alt="" />
             <div class="view_icon" onclick="zoomImage(this)">
               <i class="fa-solid fa-image"></i>
             </div>
           </div>
         </div>
-        <a href="gallery.html" class="more_gallery">voir plus</a>
-        <div class="gallery_sec__modal_img">
-          <i class="fa-solid fa-xmark" onclick="close_modal()"></i>
-          <img src="public/assets/images/gallery/1.jpg" alt="" />
-        </div>
+        <a href="gallery.html" class="more_gallery" data-aos="fade-out"
+          >voir plus</a
+        >
       </div>
     </section>
 
+    <div class="gallery_sec__modal_img">
+      <i class="fa-solid fa-xmark" onclick="close_modal()"></i>
+      <img src="public/assets/images/gallery/1.jpg" alt="" />
+    </div>
+
     <section class="tarif_sec">
       <div class="container">
-        <div class="title_sections">
+        <div class="title_sections" data-aos="fade-up">
           <h1>nos tarifs</h1>
           <p>
             Découvrez nos formules tarifaires adaptées à chaque besoin. Que ce
@@ -352,7 +361,7 @@
           </p>
         </div>
 
-        <div class="tarif-swp mySwiper">
+        <div class="tarif-swp mySwiper" data-aos="fade-up">
           <div class="swiper-wrapper tarif__plans">
             <div class="swiper-slide tarif__plans_single">
               <h1 class="tarif__plans_single__title">Basique</h1>
@@ -487,7 +496,9 @@
 
     <!-- link file js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script src="public/js/script.js"></script>
     <script src="public/js/swiper.js"></script>
+    <script src="public/js/aos.js"></script>
   </body>
 </html>

@@ -25,6 +25,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+
+    <!-- AOS CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
   </head>
   <body>
     <div class="loader">
@@ -39,7 +45,7 @@
       </div>
     </div>
 
-    <header>
+    <header data-aos="fade-down">
       <div class="container">
         <a href="index.html" class="header__logo">
           <span><img src="public/assets/images/logo/logo.png" alt="" /></span>
@@ -69,7 +75,7 @@
       </div>
     </header>
 
-    <div class="top-page">
+    <div class="top-page" data-aos="fade-zoom-in">
       <img src="public/assets/images/banner/top-page.jpg" alt="" />
       <div class="top-page__content">
         <h1>a propos</h1>
@@ -81,7 +87,7 @@
       </div>
     </div>
 
-    <section class="about_sec intro">
+    <section class="about_sec intro" data-aos="fade-up">
       <div class="container">
         <div class="about_sec__content">
           <h1>
@@ -151,7 +157,7 @@
 
     <section class="about_questions_sec">
       <div class="container">
-        <div class="title_sections">
+        <div class="title_sections" data-aos="fade-up">
           <h1>Questions</h1>
           <p>
             Vous avez des questions sur nos services ? Nous avons rassemblé ici
@@ -160,7 +166,7 @@
           </p>
         </div>
 
-        <ul class="about_questions">
+        <ul class="about_questions" data-aos="fade-up">
           <li
             class="about_questions__single active"
             onclick="open_close_question(this)"
@@ -325,6 +331,8 @@
     </footer>
 
     <!-- link file js -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script src="public/js/script.js"></script>
+    <script src="public/js/aos.js"></script>
   </body>
 </html>
